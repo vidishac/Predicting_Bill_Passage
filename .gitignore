@@ -1,0 +1,56 @@
+# Ryan's recommendations
+database.yaml
+.vscode
+triage_test/triage_output/
+*.log
+data/*
+
+# Ignore sensitive drake outputs
+drake.log
+.drake/
+
+# ignore database info
+default_profile.json
+default_profile
+
+# Ignore triage output
+triage_output/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#Ipython Notebook
+.ipynb_checkpoints
+
+#backup file for indentation
+*.bak
+
+# aws logs
+instancees.log
